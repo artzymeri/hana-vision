@@ -1,0 +1,11 @@
+export { default as Loader } from './Loader';
+export { default as Header } from './Header';
+export { default as Hero } from './Hero';
+export { default as Services } from './Services';
+export { default as About } from './About';
+export { default as Parents } from './Parents';
+export { default as Schools } from './Schools';
+export { default as Career } from './Career';
+export { default as Contact } from './Contact';
+export { default as Footer } from './Footer';
+export { default as AnimatedBackground } from './AnimatedBackground';
