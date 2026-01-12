@@ -25,7 +25,7 @@ export default function Career() {
           <div>
             <span className="text-[#dc2626] font-medium">Karriere bei HANA VISION</span>
             <h3 className="text-3xl lg:text-4xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
-              Mach den Unterschied – werde Schulbegleiter*in
+              Mach den Unterschied. Werde Schulbegleiter
             </h3>
             <p className="text-lg text-[#0a2540]/70 mb-8">
               Kinder brauchen Menschen, die sie sehen, stärken und begleiten. Wenn du Freude daran hast, Kindern Sicherheit und Orientierung zu geben, dann bist du bei uns richtig.
@@ -115,9 +115,9 @@ export default function Career() {
             <ul className="space-y-3">
               {[
                 'Interesse an pädagogischer Arbeit',
-                'Erfahrung mit Kindern (z. B. Praktikum, Ehrenamt, Familie)',
                 'Offenheit für Weiterbildung',
                 'Bereitschaft zur Zusammenarbeit im Team',
+                'Quereinsteiger sind herzlich willkommen',
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-3 text-[#0a2540]/80">
                   <span className="text-[#10b981]">✓</span>
@@ -126,36 +126,29 @@ export default function Career() {
               ))}
             </ul>
             <p className="mt-6 text-sm text-[#0a2540]/60">
-              Keine pädagogische Ausbildung nötig – wir begleiten dich fachlich.
+              Keine pädagogische Ausbildung nötig. Wir begleiten dich fachlich.
             </p>
           </div>
         </div>
 
-        {/* CTA Section */}
-        <div className="reveal-scale bg-gradient-to-br from-[#0a2540] to-[#0f3460] rounded-3xl p-8 lg:p-12 text-center">
-          <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
-            Bereit, den ersten Schritt zu machen?
-          </h3>
-          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-            Bewirb dich jetzt und werde Teil eines Teams, das Kinder stärkt und echten Unterschied macht.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-[#f5a623] text-[#0a2540] px-8 py-4 rounded-full font-semibold transition-all hover:bg-[#ffc107] hover:scale-105"
-            >
-              Jetzt bewerben
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <a
-              href="mailto:karriere@hana-vision.de"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-8 py-4 rounded-full font-semibold transition-all hover:bg-white/20"
-            >
-              karriere@hana-vision.de
-            </a>
-          </div>
+        {/* What we offer Section */}
+        <div className="reveal bg-white rounded-2xl p-8 shadow-lg border border-[#0a2540]/5 mb-24">
+          <h4 className="text-xl font-bold text-[#0a2540] mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
+            Was wir anbieten
+          </h4>
+          <ul className="space-y-3">
+            {[
+              'Wertschätzung und Kommunikation im Team',
+              'Weiterbildungsangebote',
+              'Faire Vergütung',
+              'Ferienzeiten = arbeitsfrei und bezahlt',
+            ].map((item, index) => (
+              <li key={index} className="flex items-center gap-3 text-[#0a2540]/80">
+                <span className="text-[#f5a623]">★</span>
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

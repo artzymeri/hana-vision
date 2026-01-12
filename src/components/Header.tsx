@@ -96,11 +96,6 @@ export default function Header() {
                   }`} style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
                     HANA VISION
                   </span>
-                  <span className={`block text-xs tracking-widest uppercase transition-colors duration-300 ${
-                    isScrolled ? 'text-[#0a2540]/60' : 'text-[#0a2540]/60'
-                  }`}>
-                    Schulbegleitung
-                  </span>
                 </div>
               </Link>
             </div>

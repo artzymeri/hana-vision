@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -55,8 +54,8 @@ export default function Contact() {
                 </svg>
               ),
               title: 'Telefon',
-              value: '509-728-8632',
-              subtitle: 'Monday – Friday',
+              value: '+49 176 72509138',
+              subtitle: 'Montag – Freitag',
             },
             {
               icon: (
@@ -75,8 +74,8 @@ export default function Contact() {
                 </svg>
               ),
               title: 'Büro',
-              value: 'Musterstraße 1',
-              subtitle: '12345 Musterstadt',
+              value: 'Hornauer Straße 85',
+              subtitle: '65779 Kelkheim (Taunus)',
             },
           ].map((contact, index) => (
             <div
@@ -99,20 +98,7 @@ export default function Contact() {
 
         {/* Contact Form Section */}
         <div className="reveal bg-white rounded-3xl overflow-hidden shadow-2xl">
-          <div className="grid lg:grid-cols-2">
-            {/* Image */}
-            <div className="relative h-64 lg:h-auto">
-              <Image
-                src="https://images.unsplash.com/photo-1615565734835-b32d73a6ddec?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Contact us"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0a2540]/80 to-transparent lg:bg-gradient-to-t" />
-            </div>
-
-            {/* Form */}
-            <div className="p-8 lg:p-12">
+          <div className="p-8 lg:p-12">
               <h3 className="text-2xl lg:text-3xl font-bold text-[#0a2540] mb-4" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
                 Bei HANA VISION nehmen wir uns Zeit für Austausch, Klärung und Beratung
               </h3>
@@ -185,7 +171,6 @@ export default function Contact() {
                   </button>
                 </form>
               )}
-            </div>
           </div>
         </div>
 

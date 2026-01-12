@@ -22,7 +22,7 @@ export default function About() {
             Bei HANA VISION unterstützen wir Kinder im Schulalltag, fördern ihre Entwicklung und schaffen Wege, wie Lernen, Teilhabe und Selbstvertrauen möglich werden.
           </p>
           <p className="text-xl font-semibold text-[#0a2540]">
-            Wir begleiten nicht nur – wir geben Halt, Orientierung und ein Stück Zuhause in der Schule.
+            Wir begleiten nicht nur. Wir geben Halt, Orientierung und ein Stück Zuhause in der Schule.
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default function About() {
               </p>
               <ul className="space-y-2 text-[#0a2540]/70">
                 <li>Wir begleiten mit Struktur, Respekt und Kompetenz.</li>
-                <li>Wir schaffen Teilhabe – nicht nur organisatorisch, sondern emotional.</li>
+                <li>Wir schaffen Teilhabe. Nicht nur organisatorisch, sondern emotional.</li>
               </ul>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function About() {
               Gemeinsam für Ihr Kind.
             </h3>
             <p className="text-lg text-[#0a2540]/70 mb-8">
-              Wir glauben daran, dass jedes Kind Chancen verdient — Unterstützung, Sicherheit und Menschen, die an es glauben. Wenn Sie Begleitung suchen, die stärkt und versteht, sind Sie bei uns richtig.
+              Wir glauben daran, dass jedes Kind Chancen verdient. Unterstützung, Sicherheit und Menschen, die an es glauben. Wenn Sie Begleitung suchen, die stärkt und versteht, sind Sie bei uns richtig.
             </p>
             <Link
               href="#contact"
@@ -123,13 +123,13 @@ export default function About() {
               Warum HANA VISION?
             </h3>
             <p className="text-[#0a2540]/70 mb-6">
-              Der Name <em>HANA</em> bedeutet „Mond" – ein Symbol, das wir bewusst gewählt haben. Der Mond leuchtet, wenn es dunkel ist, spendet Orientierung, wirkt sanft, aber beständig.
+              Der Name <em>HANA</em> leitet sich ab von Mond (Hënë, Albanisch). Ein Symbol, das wir bewusst gewählt haben. Der Mond leuchtet, wenn es dunkel ist, spendet Orientierung, wirkt sanft, aber beständig.
             </p>
             <p className="text-[#0a2540]/70 mb-6">
               <strong className="text-[#0a2540]">Genau das ist unsere Haltung:</strong> Wir sind <strong>ruhige Begleiter</strong>, Stabilität im Hintergrund, Licht in herausfordernden Momenten.
             </p>
             <p className="text-[#0a2540]/70">
-              Wir glauben daran, dass jedes Kind sein eigenes Licht besitzt. Unsere Aufgabe ist nicht, es zu ersetzen – sondern <strong>dafür zu sorgen, dass es gesehen wird.</strong>
+              Wir glauben daran, dass jedes Kind sein eigenes Licht besitzt. Unsere Aufgabe ist nicht, es zu ersetzen. Wir sorgen dafür, <strong>dass es gesehen wird.</strong>
             </p>
           </div>
 

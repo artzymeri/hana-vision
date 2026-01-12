@@ -92,7 +92,7 @@ export default function Services() {
             tun
           </h2>
           <p className="text-xl text-white/70 max-w-2xl mx-auto">
-            Wir handeln nicht stellvertretend, sondern befähigend. Wir orientieren uns nicht am Defizit, sondern an der Stärke und Würde des Kindes.
+            Wir begleiten nicht nur. Wir geben Halt, Orientierung und Unterstützung in der Schule.
           </p>
         </div>
 
@@ -137,7 +137,7 @@ export default function Services() {
           <div className="inline-flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-full px-8 py-4 border border-white/10">
             <div className="w-3 h-3 bg-[#f5a623] rounded-full animate-pulse" />
             <p className="text-white/80">
-              Jedes Kind verdient eine Chance – wir helfen dabei, sie zu nutzen.
+              Jedes Kind verdient eine Chance. Wir helfen dabei, sie zu nutzen.
             </p>
           </div>
         </div>

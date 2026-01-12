@@ -90,7 +90,7 @@ export default function Parents() {
               { step: '01', text: 'Sie nehmen Kontakt zu uns auf' },
               { step: '02', text: 'Wir besprechen Bedürfnisse und Ziele' },
               { step: '03', text: 'Das Jugendamt prüft und bewilligt die Begleitung' },
-              { step: '04', text: 'Wir starten die Zusammenarbeit – strukturiert und abgestimmt' },
+              { step: '04', text: 'Wir starten die Zusammenarbeit. Strukturiert und abgestimmt' },
               { step: '05', text: 'Sie bleiben Teil des Prozesses' },
             ].map((item, index) => (
               <div key={index} className={`reveal reveal-delay-${index + 1} bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 text-center hover:bg-white/10 transition-all`}>

@@ -109,7 +109,7 @@ export default function Hero() {
             >
               Wir begleiten Kinder
               <br />
-              <span className="text-[#1a73e8]">– mit Herz,</span>
+              <span className="text-[#1a73e8]">mit Herz,</span>
               <br />
               <span className="gradient-text">Struktur und Wirkung.</span>
             </h1>
@@ -141,23 +141,7 @@ export default function Hero() {
               </Link>
             </div>
 
-            {/* Trust indicators */}
-            <div ref={statsRef} className="mt-16 flex items-center gap-8 justify-center lg:justify-start">
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#0a2540]">100+</p>
-                <p className="text-sm text-[#0a2540]/60">Kinder begleitet</p>
-              </div>
-              <div className="w-px h-12 bg-[#0a2540]/20" />
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#0a2540]">50+</p>
-                <p className="text-sm text-[#0a2540]/60">Schulen</p>
-              </div>
-              <div className="w-px h-12 bg-[#0a2540]/20" />
-              <div className="text-center">
-                <p className="text-3xl font-bold text-[#0a2540]">98%</p>
-                <p className="text-sm text-[#0a2540]/60">Zufriedenheit</p>
-              </div>
-            </div>
+            {/* Trust indicators - removed */}
           </div>
 
           {/* Image */}
