@@ -148,7 +148,7 @@ export default function Hero() {
           <div ref={imageRef} className="relative">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1422&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1544776193-7bfde788739a?q=80&w=3129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&fit=crop"
                 alt="Kinder lernen zusammen"
                 width={600}
                 height={700}

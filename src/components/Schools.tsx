@@ -86,7 +86,7 @@ export default function Schools() {
           </div>
           <div className="reveal-right relative">
             <Image
-              src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1632&auto=format&fit=crop"
+              src="/yard.png"
               alt="School environment"
               width={500}
               height={400}
