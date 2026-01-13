@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Schools() {
@@ -71,64 +70,41 @@ export default function Schools() {
         </div>
 
         {/* Value Proposition */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="reveal-left">
-            <span className="text-[#0a2540]/60 text-sm uppercase tracking-wider">Für Schulen</span>
-            <h3 className="text-3xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
-              Schulbegleitung ist eine wertvolle Ressource
-            </h3>
-            <p className="text-[#0a2540]/70 mb-6">
-              nicht nur für Kinder mit Unterstützungsbedarf, sondern auch für den schulischen Alltag.
-            </p>
-            <p className="text-[#0a2540]/70">
-              Wir verstehen uns als <strong className="text-[#0a2540]">pädagogische Partner</strong>, die entlasten, strukturieren und dazu beitragen, dass Lernen gelingt.
-            </p>
-          </div>
-          <div className="reveal-right relative">
-            <Image
-              src="/yard.png"
-              alt="School environment"
-              width={500}
-              height={400}
-              className="rounded-2xl shadow-xl"
-            />
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#f5a623] rounded-2xl -z-10" />
-          </div>
+        <div className="reveal bg-white rounded-3xl p-8 lg:p-12 shadow-lg border border-[#0a2540]/5 mb-16">
+          <span className="text-[#0a2540]/60 text-sm uppercase tracking-wider">Für Schulen</span>
+          <h3 className="text-3xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
+            Schulbegleitung ist eine wertvolle Ressource
+          </h3>
+          <p className="text-[#0a2540]/70 mb-6">
+            nicht nur für Kinder mit Unterstützungsbedarf, sondern auch für den schulischen Alltag.
+          </p>
+          <p className="text-[#0a2540]/70">
+            Wir verstehen uns als <strong className="text-[#0a2540]">pädagogische Partner</strong>, die entlasten, strukturieren und dazu beitragen, dass Lernen gelingt.
+          </p>
         </div>
 
         {/* How we support schools */}
         {/* Our Approach */}
         <div className="reveal bg-[#f8fafc] rounded-3xl p-8 lg:p-12">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <span className="text-[#1a73e8] font-medium">Unsere Arbeitsweise</span>
-              <h3 className="text-3xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
-                Gemeinsam. Nie gegeneinander.
-              </h3>
-              <p className="text-[#0a2540]/70 mb-6">
-                Unsere Schulbegleiter arbeiten <strong className="text-[#0a2540]">im Team mit Lehrkräften</strong>. Respektvoll, strukturiert und immer im Sinne des Kindes.
-              </p>
-              <ul className="space-y-3 text-[#0a2540]/80">
-                <li className="flex items-center gap-2">
-                  <span className="text-[#10b981]">✓</span> Klare Kommunikation
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="text-[#10b981]">✓</span> Abgestimmte Ziele
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="text-[#10b981]">✓</span> Transparente Dokumentation
-                </li>
-              </ul>
-            </div>
-            <div className="relative flex justify-center">
-              <Image
-                src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1470&auto=format&fit=crop"
-                alt="Classroom support"
-                width={450}
-                height={350}
-                className="rounded-2xl shadow-lg"
-              />
-            </div>
+          <div>
+            <span className="text-[#1a73e8] font-medium">Unsere Arbeitsweise</span>
+            <h3 className="text-3xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
+              Gemeinsam. Nie gegeneinander.
+            </h3>
+            <p className="text-[#0a2540]/70 mb-6">
+              Unsere Schulbegleiter arbeiten <strong className="text-[#0a2540]">im Team mit Lehrkräften</strong>. Respektvoll, strukturiert und immer im Sinne des Kindes.
+            </p>
+            <ul className="grid md:grid-cols-3 gap-4 text-[#0a2540]/80">
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> Klare Kommunikation
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> Abgestimmte Ziele
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> Transparente Dokumentation
+              </li>
+            </ul>
           </div>
         </div>
 

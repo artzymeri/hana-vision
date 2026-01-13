@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Parents() {
@@ -32,47 +31,36 @@ export default function Parents() {
             Was bedeutet Schulbegleitung für Ihr Kind?
           </h3>
           
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <p className="text-xl text-white/80 mb-6">
-                Schulbegleitung hilft Kindern:
-              </p>
-              <ul className="space-y-4">
-                {[
-                  'am Unterricht teilzunehmen',
-                  'soziale Sicherheit zu entwickeln',
-                  'Herausforderungen zu meistern',
-                  'Struktur und Orientierung zu finden',
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center gap-3 text-white/90">
-                    <div className="w-6 h-6 rounded-full bg-[#10b981] flex items-center justify-center flex-shrink-0">
-                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-8 text-lg text-white/80">
-                Wir unterstützen nicht „anstelle des Kindes", sondern <strong className="text-[#f5a623]">an seiner Seite</strong>, damit Selbstständigkeit wachsen kann.
-              </p>
-              <Link
-                href="#services"
-                className="mt-6 inline-flex items-center gap-2 bg-[#dc2626] text-white px-6 py-3 rounded-full font-medium transition-all hover:bg-[#b91c1c] hover:scale-105"
-              >
-                Leistungen
-              </Link>
-            </div>
-            <div className="relative">
-              <Image
-                src="https://images.unsplash.com/photo-1557236751-b60abca1479e?q=80&w=1047&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Family support"
-                width={500}
-                height={400}
-                className="rounded-2xl shadow-2xl"
-              />
-            </div>
+          <div>
+            <p className="text-xl text-white/80 mb-6">
+              Schulbegleitung hilft Kindern:
+            </p>
+            <ul className="grid md:grid-cols-2 gap-4 mb-8">
+              {[
+                'am Unterricht teilzunehmen',
+                'soziale Sicherheit zu entwickeln',
+                'Herausforderungen zu meistern',
+                'Struktur und Orientierung zu finden',
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-3 text-white/90">
+                  <div className="w-6 h-6 rounded-full bg-[#10b981] flex items-center justify-center flex-shrink-0">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="text-lg text-white/80">
+              Wir unterstützen nicht „anstelle des Kindes", sondern <strong className="text-[#f5a623]">an seiner Seite</strong>, damit Selbstständigkeit wachsen kann.
+            </p>
+            <Link
+              href="#services"
+              className="mt-6 inline-flex items-center gap-2 bg-[#dc2626] text-white px-6 py-3 rounded-full font-medium transition-all hover:bg-[#b91c1c] hover:scale-105"
+            >
+              Leistungen
+            </Link>
           </div>
         </div>
 
@@ -109,29 +97,26 @@ export default function Parents() {
 
         {/* Attitude Section */}
         <div className="reveal bg-[#f8fafc] rounded-3xl p-8 lg:p-12">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <span className="text-[#dc2626] font-medium">Unsere Haltung gegenüber Ihrem Kind</span>
-              <h3 className="text-3xl lg:text-4xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
-                Wir sehen Kinder nicht als „Problem", sondern als Menschen mit Potenzial.
-              </h3>
-              <p className="text-[#0a2540]/70 mb-6">Unsere Schulbegleiter:</p>
-              <ul className="space-y-3 text-[#0a2540]/80">
-                <li>• arbeiten wertschätzend</li>
-                <li>• geben Stabilität</li>
-                <li>• fördern Selbstvertrauen</li>
-                <li>• kommunizieren offen mit Ihnen</li>
-              </ul>
-            </div>
-            <div className="relative flex justify-center">
-              <Image
-                src="/logo.png"
-                alt="HANA VISION"
-                width={200}
-                height={200}
-                className="floating"
-              />
-            </div>
+          <div>
+            <span className="text-[#dc2626] font-medium">Unsere Haltung gegenüber Ihrem Kind</span>
+            <h3 className="text-3xl lg:text-4xl font-bold text-[#0a2540] mt-2 mb-6" style={{ fontFamily: 'Cabinet Grotesk, sans-serif' }}>
+              Wir sehen Kinder nicht als „Problem", sondern als Menschen mit Potenzial.
+            </h3>
+            <p className="text-[#0a2540]/70 mb-6">Unsere Schulbegleiter:</p>
+            <ul className="grid md:grid-cols-2 gap-4 text-[#0a2540]/80">
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> arbeiten wertschätzend
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> geben Stabilität
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> fördern Selbstvertrauen
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#10b981]">✓</span> kommunizieren offen mit Ihnen
+              </li>
+            </ul>
           </div>
         </div>
 
